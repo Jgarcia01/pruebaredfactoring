@@ -1,0 +1,338 @@
+/*Tipografias*/
+@import url('https://fonts.googleapis.com/css?family=Tinos|Vollkorn');
+/*font-family: 'Arimo', sans-serif;*/
+/*font-family: 'Vollkorn', serif;*/
+/*font-family: 'Tinos', serif;*/
+
+.carousel-item {
+    background-color: black;
+    height: 90vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+.carousel-indicators li {
+    position: relative;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 30px;
+    height: 3px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: rgba(250,250,250,.5);
+}
+
+.carousel-indicators .active {
+    background-color: rgb(183, 12, 12);
+}
+  .carousel-indicators li{
+      border-radius: 50%;   
+      width: 20px;
+      height: 20px;
+  }
+
+  .btn-carousel{
+      width: 100%;
+      color: #fff;
+      background-color: rgb(183, 12, 12);
+      border-color: #bd2130;
+  }
+
+  .btn-2{
+    background-color: rgb(68, 126, 41);
+    border-color: #297c26;
+}
+
+  .carousel-caption {
+    width: 100%;
+    position: absolute;
+    bottom: 20px;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.carousel-caption {
+  position: absolute;
+  right:0;
+  bottom: 20px;
+  left:0;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.imagen-link{
+  width: 100%;
+  height: 90%;
+}
+
+
+  figure.seleccion {
+    width: 100%;
+    height: 350px;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    overflow: hidden;
+  }
+
+  figure.seleccion img{
+    width: 100%;
+    height: 100%;
+  }
+  
+  .cedente-sec img{
+    -webkit-filter: blur(3px);
+    filter: blur(3px); 
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+  }
+
+  .factoraje-sec img{
+    -webkit-filter: blur(3px);
+    filter: blur(3px);   
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+  }
+  
+  .seleccion:hover .cedente-img{
+    -webkit-filter: blur(0);
+    filter: blur(0); 
+  }
+
+  .seleccion:hover .factoraje-img{
+    -webkit-filter: blur(0);
+    filter: blur(0); 
+  }
+
+  .seleccion:hover span{
+    color: red;
+  }
+
+  .row-seleccion span {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    color:white;
+    font-size: 45px;
+    font-weight: 600;
+    left: 0;
+    right: 0;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+iframe{
+  width: 100%;
+  height: 350px;
+}
+.texto-video{
+  color: white;
+  background-color:  rgb(145, 8, 8);
+  height: 350px;
+}
+
+.rug-fondo{
+  background-image: url('../img/RUGG.jpg');
+  background-repeat:no-repeat; /* Indicamos que no se repetira */
+	background-size:cover; /* Encajamos la imagen al 100% del ancho */
+	background-attachment: fixed; /* Establecemos una posicion fija para la imagen */
+  color: #fff;
+  margin-top: 60px;
+}
+
+.rug-fondo span{
+  color:#fff;
+}
+
+.noticias-fondo{
+  background-image: url('../img/new.jpg');
+  background-repeat:no-repeat; /* Indicamos que no se repetira */
+	background-size:cover; /* Encajamos la imagen al 100% del ancho */
+	background-attachment: fixed; /* Establecemos una posicion fija para la imagen */
+  color: #fff;
+  margin-top: 60px;
+}
+
+.legal-fondo{
+  background-image: url('../img/legalf.jpg');
+  background-repeat:no-repeat; /* Indicamos que no se repetira */
+	background-size:cover; /* Encajamos la imagen al 100% del ancho */
+	background-attachment: fixed; /* Establecemos una posicion fija para la imagen */
+  color: #fff;
+  margin-top: 60px;
+}
+
+.faqs-fondo{
+  background-image: url('../img/faqs.jpg');
+  background-repeat:no-repeat; /* Indicamos que no se repetira */
+	background-size: 100% 35%; /* Encajamos la imagen al 100% del ancho */
+	background-attachment: fixed; /* Establecemos una posicion fija para la imagen */
+  color: #fff;
+  margin-top: 60px;
+}
+
+.cedente-fondo{
+  background-image: url('../img/cedentes.jpg');
+  background-repeat:no-repeat; /* Indicamos que no se repetira */
+	background-size:cover; /* Encajamos la imagen al 100% del ancho */
+	background-attachment: fixed; /* Establecemos una posicion fija para la imagen */
+  color: #fff;
+  margin-top: 60px;
+}
+
+.factoraje-fondo{
+  background-image: url('../img/factorajes.jpg');
+  background-repeat:no-repeat; /* Indicamos que no se repetira */
+	background-size:cover; /* Encajamos la imagen al 100% del ancho */
+	background-attachment: fixed; /* Establecemos una posicion fija para la imagen */
+  color: #fff;
+  margin-top: 60px;
+}
+
+.historia-fondo{
+  background-image: url('../img/historiaa.jpg');
+  background-repeat:no-repeat; /* Indicamos que no se repetira */
+	background-size: 100% 40%; /* Encajamos la imagen al 100% del ancho */
+	background-attachment: fixed; /* Establecemos una posicion fija para la imagen */
+  color: #fff;
+}
+
+.mision-fondo{
+  background-image: url('../img/misionn.jpg');
+  background-repeat:no-repeat; /* Indicamos que no se repetira */
+	background-size:cover; /* Encajamos la imagen al 100% del ancho */
+	background-attachment: fixed; /* Establecemos una posicion fija para la imagen */
+  color: #fff;
+  margin-top: 60px;
+}
+
+.vision-fondo{
+  background-image: url('../img/visionn.jpg');
+  background-repeat:no-repeat; /* Indicamos que no se repetira */
+	background-size:cover; /* Encajamos la imagen al 100% del ancho */
+	background-attachment: fixed; /* Establecemos una posicion fija para la imagen */
+  color: #fff;
+  margin-top: 60px;
+}
+
+.valores-fondo{
+  background-image: url('../img/valoress.jpg');
+  background-repeat:no-repeat; /* Indicamos que no se repetira */
+	background-size:cover; /* Encajamos la imagen al 100% del ancho */
+	background-attachment: fixed; /* Establecemos una posicion fija para la imagen */
+  color: #fff;
+  margin-top: 60px;
+}
+
+.flujo-cedente{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.containeer-images{
+	align-content: center;
+}
+
+.image-second{
+	width: 75%;
+	align-content: center;
+}
+
+.flujo-factoraje, .flujo-cedente figure{
+  height: 100%;
+  width: 100%;
+}
+
+.factoraje-img, .cedente-img{
+  height: 100%;
+  width: 100%;
+}
+
+
+/*Codigo para versiones mobile*/
+
+@media only screen and (max-width: 1024px){
+
+  .historia-fondo{
+    background-image: url('../images/historiaa.jpg');
+    background-repeat:no-repeat; /* Indicamos que no se repetira */
+    background-size: cover; /* Encajamos la imagen al 100% del ancho */
+    background-attachment: fixed; /* Establecemos una posicion fija para la imagen */
+    color: #fff;
+  }
+  
+}
+.carrousel-cointainer{
+  height:100vh;
+}
+.carrousel-cointainer img{
+  height:100%;
+  width: 100%;
+}
+
+.imagenes-rug figure{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.imagenes-rug figure img{
+  height: 120px;
+}
+
+.cedente-bola {
+  height: 180px;
+  width: 220px;
+}
+
+.cedente-bola img {
+  height: 100%;
+  width: 100%;
+}
+
+.cedente-bola-2 {
+  height: 150px;
+  width: 200px;
+}
+
+.cedente-bola-2 img {
+  height: 100%;
+  width: 100%;
+}
+
+.texto-rojo{
+  color: #bd2130;
+}
+
+.texto-enmedio{
+  display: flex;
+  align-items: center;
+  height: 150px;
+}
+
+.imagen-enmedio{
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+}
+
+.row-seleccion span {
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+}
